@@ -250,7 +250,7 @@ todoList();
 function changeBG(){
 	let varBG=[
 		null,
-		'url(/img/bg_640.png)',
+		'url(img/bg_640.png)',
 		'url(/img/bg_6401.jpg)',
 		'url(/img/bg_6402.png)',
 		'url(/img/bg-728510.svg)',
