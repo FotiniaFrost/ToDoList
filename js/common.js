@@ -168,7 +168,7 @@ function todoList(){
   			}
 		}
 	}
-		console.log(localStorage);
+		
 	
 	//слушатели событий
 	document.querySelector(".main").addEventListener(
