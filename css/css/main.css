@@ -1,0 +1,224 @@
+@charset "UTF-8";
+@import url(normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\000038}}
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background: #e8fffe;
+  color: #374348;
+  padding: 100px 0;
+  overflow-x: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000319}}
+.main {
+  background-color: #fff;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 40px 70px;
+  -webkit-box-shadow: 2px 2px 5px #ccc;
+          box-shadow: 2px 2px 5px #ccc;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000328}}
+h1 {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000332}}
+.listItem, .addItem, .updateItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000338}}
+input[type='text'] {
+  width: auto;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 2px #ddd;
+          box-shadow: 0 2px 2px #ddd;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000348}}
+  input[type='text']:focus {
+    border: 1px solid #77b6f5;
+    -webkit-box-shadow: 0 0 5px #77b6f5;
+            box-shadow: 0 0 5px #77b6f5;
+    outline: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000353}}
+  input[type='text'].redPlac::-webkit-input-placeholder {
+    color: #e3342f;
+    opacity: 0.7; }
+  input[type='text'].redPlac:-ms-input-placeholder {
+    color: #e3342f;
+    opacity: 0.7; }
+  input[type='text'].redPlac::-ms-input-placeholder {
+    color: #e3342f;
+    opacity: 0.7; }
+  input[type='text'].redPlac::placeholder {
+    color: #e3342f;
+    opacity: 0.7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000358}}
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000362}}
+  input[type='checkbox']:checked + .textTodo {
+    opacity: 0.7;
+    text-decoration: line-through; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000368}}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000374}}
+.button {
+  height: 40px;
+  border-radius: 5px;
+  background-color: inherit;
+  padding: 0 10px;
+  margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000381}}
+  .button__green {
+    border: 2px solid #4cc1b5;
+    color: #4cc1b5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000384}}
+    .button__green:hover {
+      background-color: #4cc1b5;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000389}}
+  .button__red {
+    border: 2px solid #e3342f;
+    color: #e3342f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000392}}
+    .button__red:hover {
+      background-color: #e3342f;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\0000398}}
+  .button_clear {
+    display: block;
+    margin: 50px 0 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003102}}
+  .button_change {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003109}}
+.textTodo {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003114}}
+.invis {
+  display: none; }
+
+/*Модальное окно*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003121}}
+.modalWindow:before {
+  content: '';
+  background: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: 99; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003133}}
+.modalMessage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 360px;
+  background: #fff;
+  border-radius: 5px;
+  z-index: 999;
+  opacity: 1;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003147}}
+input[type="checkbox"] {
+  opacity: 0;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003151}}
+label {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003161}}
+label:after {
+  content: url(../img/);
+  display: block;
+  background: url(../img/27406.svg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  opacity: 0;
+  z-index: 9;
+  -webkit-transition: width 0.30s;
+  transition: width 0.30s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003176}}
+input[type="checkbox"]:checked ~ label:after {
+  width: 30px;
+  height: 30px;
+  opacity: 1; }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003186}}
+  .main {
+    width: 98%; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003194}}
+  .main {
+    padding: 20px 20px 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003198}}
+  body {
+    font-size: 14px; } }
