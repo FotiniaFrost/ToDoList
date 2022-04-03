@@ -212,13 +212,10 @@ input[type="checkbox"]:checked ~ label:after {
 @media only screen and (max-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003186}}
   .main {
-    width: 98%; } }
+    width: 98%;
+    padding: 20px 10px 50px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003194}}
-  .main {
-    padding: 20px 20px 50px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003195}}
   body {
     font-size: 14px; } }
