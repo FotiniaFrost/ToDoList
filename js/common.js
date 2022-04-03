@@ -224,7 +224,7 @@ function todoList(){
 	});
 	
 	elem.addInput.addEventListener(
-		'keydown',(e)=>{if( e.code === 'Enter'){
+		'keydown',(e)=>{if( e.key === 'Enter'){
 		creatListItem();
 		createTodo();
 		
@@ -234,10 +234,10 @@ function todoList(){
 
 	elem.ul.addEventListener(
 		'keydown',(e)=>{
-		if( e.code === 'Enter'){
+		if( e.key === 'Enter'){
 		 updateText();
 		}
-		if( e.code === 'Escape'){
+		if( e.key === 'Escape'){
 		 cancelEdit();
 		}
 		return
