@@ -218,4 +218,8 @@ input[type="checkbox"]:checked ~ label:after {
 @media only screen and (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003195}}
   body {
-    font-size: 14px; } }
+    font-size: 14px; } 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fotinia\/Desktop\/To\%20Do\/css\/main\.scss}line{font-family:\00003198}}
+  input[type='text'] {
+    min-width: 100px; } }
+
